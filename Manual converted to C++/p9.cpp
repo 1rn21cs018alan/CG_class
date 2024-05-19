@@ -6,9 +6,9 @@ void disp1(){
     glClear(GL_COLOR_BUFFER_BIT);
     glBegin(GL_LINE_LOOP);
     glColor3f(1,1,1);
-    i=0;
+    int i=0;
     while(i<=360){
-        ang=3.1415/180*i;
+        double ang=3.1415/180*i;
         glVertex2f(15*cos(ang),15*sin(ang));
         i+=1;
     }
