@@ -1,7 +1,19 @@
 # Lab Programs:
 Write an OpenGL Program to 
 Lab Program 1: Draw 2 Points
+| SlNo | Program |
+|-----:|---------------|
+|     1|         s      |
+|     2|        a       |
+|     3|        w       |
+
+
 # Practice Problems
+| SlNo | Program                               |
+|-----:|---------------|
+|     1|       d        |
+|     2|     w          |
+|     3|           e    |
 
 Write an OpenGL Program to draw
 Program 1 : Multiple Lines
