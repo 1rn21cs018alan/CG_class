@@ -1,28 +1,32 @@
 # Lab Programs:
 Write an OpenGL Program to 
-Lab Program 1: Draw 2 Points
 | SlNo | Program |
 |-----:|---------------|
-|     1|         s      |
-|     2|        a       |
-|     3|        w       |
+|     1|     Draw 2 Points    |
 
 
 # Practice Problems
-| SlNo | Program                               |
+| SlNo | Program |
 |-----:|---------------|
-|     1|       d        |
-|     2|     w          |
-|     3|           e    |
+|     1|   Multiple Lines       |
+|     2|       Triangles using GL_LINES and GL_LINE_LOOP       |
+|     3|        Rectangles using GL_LINES and GL_LINE_LOOP       |
+|     4|       Squares using GL_LINES and GL_LINE_LOOP        |
+|     5|        A House with 2 stars        |
+|     6|      A Robot         |
+|     7|       Circle using GL_POINTS        |
+|     8|     Circle using GL_LINES          |
+|     9|        Circle using GL_LINE_LOOP       |
+|    10|       Circle using stroke lines         |
 
 Write an OpenGL Program to draw
-Program 1 : Multiple Lines
-Program 2 : Triangles using GL_LINES and GL_LINE_LOOP
-Program 3 : Rectangles using GL_LINES and GL_LINE_LOOP
-Program 4 : Squares using GL_LINES and GL_LINE_LOOP
-Program 5 : a House with 2 stars
-Program 6 : a Robot
-Program 7 : Circle using GL_POINTS
-Program 8 : Circle using GL_LINES
-Program 9 : Circle using GL_LINE_LOOP
-Program 10: Circle using stroke lines
+Program 1 : 
+Program 2 : 
+Program 3 : 
+Program 4 : 
+Program 5 :
+Program 6 : 
+Program 7 : 
+Program 8 : 
+Program 9 : 
+Program 10:
