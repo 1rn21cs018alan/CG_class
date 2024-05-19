@@ -8,7 +8,7 @@ void disp1(){
     glColor3f(1,1,1);
     int i=0;
     while(i<=360){
-        ang=3.1415/180*i;
+        double ang=3.1415/180*i;
         glVertex2f(15*cos(ang),15*sin(ang));
         i+=1;
         ang=3.1415/180*i;
