@@ -1,5 +1,5 @@
 #include<glut.h>
-
+/*
 void disp1() {//draw 2 points
 	glClearColor(0, 0.5, 0, 1);
 	glClear(GL_COLOR_BUFFER_BIT);
@@ -8,6 +8,20 @@ void disp1() {//draw 2 points
 	glBegin(GL_POINTS);
 	glVertex2f(25, 25);
 	glVertex2f(75, 75);
+	glEnd();
+	glFlush();
+}
+*/
+
+void disp1() {//draw 2 points
+	glClearColor(1, 1, 1, 1);
+	glClear(GL_COLOR_BUFFER_BIT);
+	glColor3f(0, 0, 0);
+	glBegin(GL_LINES);
+	glVertex2f(25, 25);
+	glVertex2f(75, 75);
+	glVertex2f(75, 25);
+	glVertex2f(75, 25);
 	glEnd();
 	glFlush();
 }
