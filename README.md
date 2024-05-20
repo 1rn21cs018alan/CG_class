@@ -20,3 +20,9 @@ Write an OpenGL Program to draw
 |     8|Circle using GL_LINES                       |
 |     9|Circle using GL_LINE_LOOP                   |
 |    10|Circle using stroke lines                   |
+|    11|Cylinder by Extruding Circle                |
+|    12|Parallelopied by Extruding Quadrilaterals   |
+|    13|DDA Line Drawing                            |
+|    14|Moving Text                                 |
+|    15|Show which octant a point belongs to(normal code)  |
+|    16|A Mesh                                      |
