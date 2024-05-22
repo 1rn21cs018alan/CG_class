@@ -3,6 +3,7 @@ Write an OpenGL Program to
 | SlNo | Program |
 |-----:|---------------|
 |     1|     Draw 2 Points    |
+|     2|     Bresenham's Line Drawing|
 
 
 # Practice Problems
