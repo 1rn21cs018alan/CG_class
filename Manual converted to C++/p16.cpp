@@ -1,10 +1,10 @@
 // Mesh
-
+#include<glut.h>
 
 
 void disp1(){
-    glClearColor(0,0,0,1)
-    glClear(GL_COLOR_BUFFER_BIT)
+    glClearColor(0,0,0,1);
+    glClear(GL_COLOR_BUFFER_BIT);
     for(int i=-50;i<51;i+=20){
         glBegin(GL_LINES);
         glVertex2f(-50,i);
