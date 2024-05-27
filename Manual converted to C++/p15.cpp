@@ -19,7 +19,7 @@ int main(){
         else
             cout<<"3rd";
     }
-    else if(x<0 and y<0){
+    else if(x<0 && y<0){
         if(x>y)
             cout<<"6th";
         else
