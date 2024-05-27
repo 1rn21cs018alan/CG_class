@@ -13,7 +13,7 @@ void update(int j){
     glRasterPos2i(cx1,cy1);
     glRasterPos2i(cx1+5*j,cy1);
     for(int i=0;i< inp.length();i++)
-        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,inp);
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,inp[i]);
     glFlush();
     if(j>30)
         glutTimerFunc(100,update,0);
