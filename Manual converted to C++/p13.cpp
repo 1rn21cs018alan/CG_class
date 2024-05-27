@@ -9,9 +9,9 @@ void DDA_line(int x1,int y1,int x2,int y2){
     float dx,dy,steps,x,y;
     dx=x2-x1;
     dy=y2-y1;
-    steps=abs(dy);
-    if(abs(dx)>steps){
-        steps=abs(dx);
+    steps=fabs(dy);
+    if(fabs(dx)>steps){
+        steps=fabs(dx);
     }
     x=x1;
     y=y1;
