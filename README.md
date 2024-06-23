@@ -2,8 +2,8 @@
 Write an OpenGL Program to 
 | SlNo | Program |
 |-----:|---------------|
-|     1|     Draw 2 Points    |
-|     2|     Bresenham's Line Drawing|
+|     0|     ~Draw 2 Points~    |
+|     1|     Bresenham's Line Drawing|
 
 
 # Practice Problems
@@ -17,7 +17,7 @@ Write an OpenGL Program to draw
 |     4|Squares using GL_LINES and GL_LINE_LOOP     |
 |     5|A House with 2 stars                        |
 |     6|A Robot                                     |
-|     7|Circle using GL_POINTS                      |
+|     7|Circle using GL_POINTS                      |        
 |     8|Circle using GL_LINES                       |
 |     9|Circle using GL_LINE_LOOP                   |
 |    10|Circle using stroke lines                   |
