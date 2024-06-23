@@ -4,6 +4,8 @@ Write an OpenGL Program to
 |-----:|---------------|
 |     0|     ~Draw 2 Points~    |
 |     1|     Bresenham's Line Drawing|
+|     2|     Demonstrate 2D operations on basic objects|
+|     3|     Demonstrate 2D transformations on basic objects with inbuilt functions|
 
 
 # Practice Problems
