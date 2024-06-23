@@ -27,3 +27,15 @@ Write an OpenGL Program to draw
 |    14|Moving Text                                 |
 |    15|Show which octant a point belongs to(normal code)  |
 |    16|A Mesh                                      |
+|    17|Resize a square with mouse click                                      |
+|    18|Recolour a square with mouse click                                      |
+|    19|Recolour a square and quit with keyboard                                     |
+|    20|Recolouring and Resizeing a square with menu                               |
+|    21|Different line styles using line stipple                               |
+|    22|Translate a point,line and triangle(without inbuilt function)                               |
+|    23|Translate a House(without inbuilt function)                               |
+|    24|Rotate a line and triangle(without inbuilt function)                               |
+|    25|Scale a polygon(without inbuilt function)                               |
+|    26|Add randomly coloured Squares with left click and clear screen with right click                               |
+|    27|Start rotating a Square with left click and stop on right click                               |
+|    28|Rotating a Traingle at about a Pivot point based on User input                               |
