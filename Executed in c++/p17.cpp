@@ -44,6 +44,7 @@ void mouse(int b, int s, int x, int y) {
 		case 2:
 			sizef -= 5;
 		}
+	glutPostRedisplay();
 }
 int main(int argc, char** argv) {
 	glutInit(&argc, argv);
