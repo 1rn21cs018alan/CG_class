@@ -6,6 +6,8 @@ Write an OpenGL Program to
 |     1|     Bresenham's Line Drawing|
 |     2|     Demonstrate 2D operations on basic objects|
 |     3|     Demonstrate 2D transformations on basic objects with inbuilt functions|
+|     4|     Demonstrate 3D transformations on basic objects|
+|     5|     Demonstrate 3D transformations on basic objects with inbuilt functions|
 
 
 # Practice Problems
