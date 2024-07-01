@@ -25,6 +25,8 @@ void cube(float tx,float ty,float tz,float rx,float ry,float rz,float scale,floa
 		{+1,+1,+1},
 		{+1,+1,-1}
 	};
+	rx += rot2;
+	ry += rot;
 	rx = rx * 3.1415 / 180;
 	ry = ry * 3.1415 / 180;
 	rz = rz * 3.1415 / 180;
@@ -45,9 +47,9 @@ void cube(float tx,float ty,float tz,float rx,float ry,float rz,float scale,floa
 		y = x * sin(rz) + y * cos(rz);
 		x = t;
 
-		P[i][0] = x ;
-		P[i][1] = y ;
-		P[i][2] = z ;
+		P[i][0] = x +move_x;
+		P[i][1] = y +move_y;
+		P[i][2] = z +move_z;
 	}
 	glColor3f(c, 0, 0);
 	face(P, 0, 1, 2, 3);
@@ -67,10 +69,10 @@ void disp() {
 	glClearColor(0, 0, 0, 1);
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
-	cube(move_x + 0, move_y + 0, 0, rot2, rot, 0, 0.1, 1.0);
-	cube(move_x + 0.5, move_y + 0, 0, rot2, rot, 0, 0.2, 0.9);
-	cube(move_x + 0, move_y + 0.5, 0, rot2, rot, 0, 0.2, 0.8);
-	cube(move_x + 0, move_y + 0, 0.5, rot2, rot, 0, 0.2, 0.7);
+	cube(0, 0, 0, 0, 0, 0, 0.1, 1.0);
+	cube(0.5, 0, 0, 0, 0, 0, 0.2, 0.9);
+	cube(0, 0.5, 0, 0, 0, 0, 0.2, 0.8);
+	cube(0, 0, 0.5, 0, 0, 0, 0.2, 0.7);
 	glutSwapBuffers();
 }
 void keyboard(unsigned char key, int x, int y) {
