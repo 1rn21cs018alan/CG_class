@@ -8,6 +8,7 @@ Write an OpenGL Program to
 |     3|     Demonstrate 2D transformations on basic objects with inbuilt functions|
 |     4|     Demonstrate 3D transformations on basic objects|
 |     5|     Demonstrate 3D transformations on basic objects with inbuilt functions|
+|     6|     Demonstrate Animations and Idle Function|
 
 
 # Practice Problems
