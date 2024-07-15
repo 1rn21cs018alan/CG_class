@@ -85,7 +85,7 @@ void keyboard(unsigned char key, int x, int y) {
 	case ',':rot++;break;
 	case '[':rot2--;break;
 	case ']':rot2++;break;
-	case '-':scl-+0.1;break;
+	case '-':scl-=0.1;break;
 	case '=':scl+=0.1;break;
 	case 'r':move_x=move_z=rot=rot2=0;break;
 	case 'q': exit(0);
