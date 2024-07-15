@@ -52,7 +52,7 @@ void disp() {
 	cube();
 	glutSwapBuffers();
 }
-void keyboard(unsigned char key, int x, int y) {
+void keyboard(unsigned char key, int _x, int _y) {
 	switch (key) {
 	case 'w':y += 0.05;break;
 	case 's':y -= 0.05;break;
